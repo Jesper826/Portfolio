@@ -1,0 +1,70 @@
+body.pagina-04-vaardigheden {
+    --accent: #c15a75;
+    background: #f4e9ec;
+}
+
+.page-intro {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: 40px;
+    padding: 100px 0 64px;
+    border-bottom: 1px solid var(--line);
+}
+
+.page-intro h2 {
+    max-width: 720px;
+    margin-bottom: 22px;
+}
+
+.page-intro p {
+    max-width: 390px;
+    align-self: end;
+}
+
+.skill-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    padding: 65px 0 100px;
+}
+
+.skill-list {
+    list-style: none;
+    border-top: 1px solid var(--line);
+}
+
+.skill-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 1.15rem;
+}
+
+.skill-list li span {
+    color: var(--accent);
+    font-size: .75rem;
+}
+
+.skill-note {
+    max-width: 350px;
+}
+
+.skill-note p {
+    margin: 20px 0 28px;
+}
+
+@media (max-width: 700px) {
+    .page-intro {
+        grid-template-columns: 1fr;
+        gap: 38px;
+        padding: 60px 0 35px;
+    }
+
+    .skill-layout {
+        grid-template-columns: 1fr;
+        gap: 38px;
+        padding: 60px 0;
+    }
+}

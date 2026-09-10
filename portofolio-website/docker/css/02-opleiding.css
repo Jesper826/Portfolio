@@ -1,0 +1,58 @@
+body.pagina-02-opleiding {
+    --accent: #e7a93b;
+    background: #f1ecdf;
+}
+
+.page-intro {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: 40px;
+    padding: 100px 0 64px;
+    border-bottom: 1px solid var(--line);
+}
+
+.page-intro h2 {
+    max-width: 720px;
+    margin-bottom: 22px;
+}
+
+.page-intro p {
+    max-width: 390px;
+    align-self: end;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 70px;
+    padding: 54px 0 90px;
+}
+
+.timeline article {
+    padding: 28px 0 34px;
+    border-bottom: 1px solid var(--line);
+}
+
+.year {
+    color: var(--accent);
+    font-size: .75rem;
+    letter-spacing: .1em;
+}
+
+.timeline h3 {
+    margin: 12px 0 8px;
+    font: 1.65rem var(--display);
+}
+
+@media (max-width: 700px) {
+    .page-intro {
+        grid-template-columns: 1fr;
+        gap: 38px;
+        padding: 60px 0 35px;
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+        padding-top: 30px;
+    }
+}

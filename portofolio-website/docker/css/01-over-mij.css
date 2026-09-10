@@ -1,0 +1,82 @@
+body.pagina-01-over-mij {
+    --accent: #ef6f51;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: clamp(40px, 8vw, 130px);
+    align-items: center;
+    min-height: 72vh;
+    padding: 72px 0;
+}
+
+.home-copy h1 {
+    max-width: 680px;
+    margin: 24px 0 28px;
+}
+
+.home-copy h1 em {
+    color: var(--accent);
+    font-style: normal;
+}
+
+.home-copy p {
+    max-width: 450px;
+    margin-bottom: 32px;
+}
+
+.home-meta {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-top: 30px;
+    color: var(--muted);
+    font-size: .72rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.home-meta::before {
+    content: '';
+    width: 42px;
+    height: 1px;
+    background: var(--accent);
+}
+
+.portrait {
+    position: relative;
+    min-height: 480px;
+    background: #080808;
+    overflow: hidden;
+}
+
+.portrait img {
+    width: 100%;
+    height: 100%;
+    min-height: 480px;
+    object-fit: cover;
+    opacity: .8;
+}
+
+.portrait::after {
+    position: absolute;
+    right: 18px;
+    bottom: 8px;
+    color: var(--accent);
+    font: 7rem var(--display);
+    line-height: 1;
+}
+
+@media (max-width: 700px) {
+    .home-grid {
+        grid-template-columns: 1fr;
+        gap: 38px;
+        padding: 60px 0;
+    }
+
+    .portrait,
+    .portrait img {
+        min-height: 320px;
+    }
+}

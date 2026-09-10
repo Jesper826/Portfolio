@@ -1,0 +1,52 @@
+body.pagina-05-contact {
+    --accent: #6683ba;
+    background: #e8edf4;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr .8fr;
+    gap: 100px;
+    min-height: 70vh;
+    padding: 110px 0;
+}
+
+.contact-layout h2 {
+    margin: 22px 0 28px;
+}
+
+.contact-layout>div>p {
+    max-width: 390px;
+    margin-bottom: 35px;
+}
+
+.contact-details {
+    align-self: end;
+    border-top: 1px solid var(--line);
+}
+
+.contact-details a {
+    display: block;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink);
+    text-decoration: none;
+}
+
+.contact-details span {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--accent);
+    font-size: .7rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+    .contact-layout {
+        grid-template-columns: 1fr;
+        gap: 38px;
+        min-height: auto;
+        padding: 60px 0;
+    }
+}
