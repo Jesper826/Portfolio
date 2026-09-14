@@ -5,21 +5,21 @@
         <p class="eyebrow">02 / Route</p>
         <div>
             <h2>Leren door te maken.</h2>
-            <p>Ik volg de opleiding Software Developer. Mijn interesse ligt vooral bij webdevelopment, waarbij ik design en techniek combineer om gebruiksvriendelijke websites te maken.</p>
+            <p>Ik volg de opleiding Software Developer. Mijn interesse ligt bij webdevelopment, waarbij ik de front en back end technieken combineer om gebruiksvriendelijke websites te maken.</p>
         </div>
     </section>
     <section class="timeline">
-        <article><span class="year">2023 — heden</span>
+        <article><span class="year">2024 — heden</span>
             <h3>Software Developer</h3>
             <p>Een technische opleiding waarin ik leer programmeren, websites bouwen en werken met databases en frameworks.</p>
         </article>
         <article><span class="year">01</span>
-            <h3>Webdesign</h3>
-            <p>Webdesign vind ik het leukste onderdeel. Ik denk na over structuur, uitstraling en de ervaring van de gebruiker.</p>
+            <h3>Front-end</h3>
+            <p>Ik vind front-end het leukste onderdeel van webdevelopment, omdat ik het makkelijker vind om vanuit de gebruiker te denken.</p>
         </article>
         <article><span class="year">02</span>
-            <h3>Webdevelopment</h3>
-            <p>Ik vertaal een ontwerp naar een werkende website met HTML, CSS, JavaScript en PHP.</p>
+            <h3>Back-end</h3>
+            <p>Back-end vind ik ook erg interessant, omdat het om de logica en functionaliteit van een website gaat.</p>
         </article>
         <article><span class="year">03</span>
             <h3>Blijven leren</h3>
