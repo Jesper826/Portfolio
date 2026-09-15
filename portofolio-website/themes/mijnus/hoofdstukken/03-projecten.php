@@ -26,10 +26,10 @@
             <img class="project-image" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/demofoto.png" alt="Voorbeeldbeeld van de interactieve website">
             <div class="project-content">
                 <span class="tag">HTML / CSS / JavaScript</span>
-                <h3>Interactieve website</h3>
-                <p>Een website waarin ik layout, styling en interactieve elementen combineer met JavaScript.</p>
+                <h3>Javascript Widgets</h3>
+                <p>Een repository met verschillende JavaScript widgets die ik heb ontwikkeld. In de repository vind je een verzameling van url's naar de verschillende widgets. </p>
                 <div class="project-links">
-                    <a class="button" href="#">Live website <span>↗</span></a>
+                    <a class="button" href="#">Url lijst <span>↗</span></a>
                     <a class="button button-secondary" href="#">GitHub <span>↗</span></a>
                 </div>
             </div>
