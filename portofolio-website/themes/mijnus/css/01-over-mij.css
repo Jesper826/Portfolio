@@ -68,6 +68,53 @@ body.pagina-01-over-mij {
     line-height: 1;
 }
 
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    padding: 45px 0 90px;
+
+}
+
+.project{
+    padding: 20px;
+    border: 1px solid var(--line);
+    margin-bottom: 3vh;
+    margin-top: 5vh;
+    background: #f1ecdf;
+}
+
+.eyebrow {
+    color: var(--accent);
+    font-size: 2rem;
+    letter-spacing: .1em;
+}
+
+h3{
+    font-size: 1.65rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.project-description{
+    margin-bottom: 1rem;
+}
+
+.button-git{
+    display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	padding: 13px 18px;
+	border: 1px solid var(--ink);
+	color: var(--ink);
+	font-size: .74rem;
+	letter-spacing: .1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background .2s, color .2s;
+    background: #f4f0e8;
+}
+
 @media (max-width: 700px) {
     .home-grid {
         grid-template-columns: 1fr;
