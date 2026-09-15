@@ -2,7 +2,7 @@
 
 <main>
     <section class="page-intro" id="opleiding">
-        <p class="eyebrow">02 / Route</p>
+        <p class="eyebrow">03 / Over mij</p>
         <div>
             <h2>Leren door te maken.</h2>
             <p>Ik volg de opleiding Software Developer. Mijn interesse ligt bij webdevelopment, waarbij ik de front en back end technieken combineer om gebruiksvriendelijke websites te maken.</p>

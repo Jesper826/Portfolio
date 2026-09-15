@@ -84,6 +84,20 @@ body.pagina-01-over-mij {
     background: #f1ecdf;
 }
 
+.project-feature {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, .8fr);
+    gap: 32px;
+    align-items: center;
+}
+
+.project-photo {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
 .eyebrow {
     color: var(--accent);
     font-size: 2rem;
@@ -125,5 +139,10 @@ h3{
     .portrait,
     .portrait img {
         min-height: 320px;
+    }
+
+    .project-feature {
+        grid-template-columns: 1fr;
+        gap: 24px;
     }
 }
