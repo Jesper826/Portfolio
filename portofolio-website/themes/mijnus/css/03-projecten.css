@@ -29,6 +29,8 @@ body.pagina-03-projecten {
 }
 
 .project {
+    display: flex;
+    flex-direction: column;
     border: 1px solid var(--line);
     background: rgba(255, 255, 255, .25);
 }
@@ -42,6 +44,9 @@ body.pagina-03-projecten {
 }
 
 .project-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     padding: 24px;
 }
 
@@ -65,9 +70,11 @@ body.pagina-03-projecten {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    margin-top: auto;
 }
 
 .project-links .button {
+    position: static;
     padding: 11px 13px;
     font-size: .68rem;
 }
