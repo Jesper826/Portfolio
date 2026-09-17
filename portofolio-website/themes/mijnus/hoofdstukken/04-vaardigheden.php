@@ -16,10 +16,11 @@
             <li>React <span>Beginner</span></li>
             <li>Bootstrap <span>Beginner</span></li>
             <li>Laravel <span>Beginner</span></li>
+            <li>WordPress <span>Beginner</span></li>
         </ul>
         <div class="skill-note">
             <p class="eyebrow">Werkhouding</p>
-            <p>Ik combineer mijn gevoel voor design met mijn technische basis. Mijn doel is om steeds zelfstandiger complete websites en webapplicaties te bouwen.</p><a class="button" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/hoofdstukken/05-contact.php">Samenwerken <span>↗</span></a>
+            <p>Ik combineer mijn skills voor design met mijn technische basis. Mijn doel is om steeds zelfstandiger complete websites en webapplicaties te bouwen.</p><a class="button" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/hoofdstukken/05-contact.php">Samenwerken <span>↗</span></a>
         </div>
     </section>
 </main>
