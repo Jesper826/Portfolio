@@ -29,7 +29,7 @@
                 <div class="project-copy">
                     <span class="tag">HTML / CSS / JavaScript</span>
                     <h3>Interactieve website</h3>
-                    <p class="project-description">Een website waarin ik layout, styling en interactieve elementen combineer met JavaScript.</p>
+                    <p class="project-description">Een website waarin ik layout, styling en interactieve elementen combineer met JavaScript en andere diverse talen.</p>
                     <a class="button-git" href="#">Github link <span>↗</span></a>
                 </div>
                 <img class="project-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/demofoto.png" alt="Demo-afbeelding van de interactieve website">
