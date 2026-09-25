@@ -29,8 +29,8 @@
                 <h3>Javascript Widgets</h3>
                 <p>Een repository met verschillende JavaScript widgets die ik heb ontwikkeld. In de repository vind je een verzameling van url's naar de verschillende widgets. </p>
                 <div class="project-links">
-                    <a class="button" href="https://github.com/Jesper826/Skill_Widgets/blob/main/README.md">Url lijst <span>↗</span></a>
-                    <a class="button button-secondary" href="https://github.com/Jesper826/Skill_Widgets">GitHub <span>↗</span></a>
+                    <a class="button" href="https://github.com/Jesper826/Skill_Widgets/blob/main/README.md" target="_blank" rel="noopener">Url lijst <span>↗</span></a>
+                    <a class="button button-secondary" href="https://github.com/Jesper826/Skill_Widgets" target="_blank" rel="noopener">GitHub <span>↗</span></a>
                 </div>
             </div>
         </article>
@@ -42,8 +42,8 @@
                 <h3>Laravel projecten</h3>
                 <p>Ik ontwikkelde drie webapplicaties met Laravel, PHP, React, TypeScript, Inertia.js, Tailwind CSS en Vite: een awardplatform, een space-programming-applicatie en een T-shirtwebsite.</p>
                 <div class="project-links">
-                    <a class="button" href="https://github.com/Jesper826/M8_Prog/blob/main/README.md">Info <span>↗</span></a>
-                    <a class="button button-secondary" href="https://github.com/Jesper826/M8_Prog">GitHub <span>↗</span></a>
+                    <a class="button" href="https://github.com/Jesper826/M8_Prog/blob/main/README.md" target="_blank" rel="noopener">Info <span>↗</span></a>
+                    <a class="button button-secondary" href="https://github.com/Jesper826/M8_Prog" target="_blank" rel="noopener">GitHub <span>↗</span></a>
                 </div>
             </div>
         </article>
@@ -55,8 +55,8 @@
                 <h3>Vite project</h3>
                 <p>In dit project heb ik een basiswebsite neergezet met vite. Ik onderzocht hoe ik een project opzetten en stopte er een paar basis widgets in.</p>
                 <div class="project-links">
-                    <a class="button" href="https://github.com/Jesper826/m7_bo/README.md">Info <span>↗</span></a>
-                    <a class="button button-secondary" href="https://github.com/Jesper826/m7_bo">GitHub <span>↗</span></a>
+                    <a class="button" href="https://github.com/Jesper826/m7_bo/README.md" target="_blank" rel="noopener">Info <span>↗</span></a>
+                    <a class="button button-secondary" href="https://github.com/Jesper826/m7_bo" target="_blank" rel="noopener">GitHub <span>↗</span></a>
                 </div>
             </div>
         </article>
@@ -68,8 +68,8 @@
                 <h3>Muziek project</h3>
                 <p>Ik ontwikkelde samen met een klasgenoot een muziekinstrument waarbij je via knoppen de beat en toon kon aanpassen. LED's gaven de status aan en een LDR veranderde de beat bij licht.</p>
                 <div class="project-links">
-                    <a class="button" href="https://github.com/Jesper826/m6_bo/blob/main/README.md">Info <span>↗</span></a>
-                    <a class="button button-secondary" href="https://github.com/Jesper826/m6_bo">GitHub <span>↗</span></a>
+                    <a class="button" href="https://github.com/Jesper826/m6_bo/blob/main/README.md" target="_blank" rel="noopener">Info <span>↗</span></a>
+                    <a class="button button-secondary" href="https://github.com/Jesper826/m6_bo" target="_blank" rel="noopener">GitHub <span>↗</span></a>
                 </div>
             </div>
         </article>
@@ -81,8 +81,8 @@
                 <h3>Database projecten</h3>
                 <p>In dit project ontwikkelde ik een database-applicatie met PHP, SQLite en Dataclasses. Ik onderzocht hoe ik data kon opslaan en ophalen uit een database.</p>
                 <div class="project-links">
-                    <a class="button" href="https://github.com/Jesper826/m6_prog/blob/main/README.md">Info <span>↗</span></a>
-                    <a class="button button-secondary" href="https://github.com/Jesper826/m6_prog/tree/main">GitHub <span>↗</span></a>
+                    <a class="button" href="https://github.com/Jesper826/m6_prog/blob/main/README.md" target="_blank" rel="noopener">Info <span>↗</span></a>
+                    <a class="button button-secondary" href="https://github.com/Jesper826/m6_prog/tree/main" target="_blank" rel="noopener">GitHub <span>↗</span></a>
                 </div>
             </div>
         </article>

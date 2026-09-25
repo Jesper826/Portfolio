@@ -20,28 +20,30 @@
                     <span class="tag">Webdesign / development</span>
                     <h3>Roomus</h3>
                     <p class="project-description">Voor Roomus heb ik een vernieuwd websiteconcept ontworpen met een focus op een moderne, professionele en gebruiksvriendelijke uitstraling. Het bestaande design sloot naar mijn mening niet volledig aan bij de identiteit en doelgroep van Roomus. Daarom heb ik de website opnieuw vormgegeven, met extra aandacht voor visuele consistentie, duidelijke navigatie en een sterke gebruikerservaring.</p>
-                    <a class="button-git" href="https://38734.hosts2.ma-cloud.nl/roomus/">Website link <span>↗</span></a>
-                    <a class="button-git" href="https://github.com/Jesper826/Roomus">Github link <span>↗</span></a>
+                    <a class="button-git" href="https://38734.hosts2.ma-cloud.nl/roomus/" target="_blank" rel="noopener">Website link <span>↗</span></a>
+                    <a class="button-git" href="https://github.com/Jesper826/Roomus" target="_blank" rel="noopener">Github link <span>↗</span></a>
                 </div>
                 <img class="project-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/roomus.png" alt="Voorbeeld van de Roomus website">
             </article>
             <article class="project project-feature">
                 <div class="project-copy">
-                    <span class="tag">HTML / CSS / JavaScript</span>
-                    <h3>Interactieve website</h3>
-                    <p class="project-description">Een website waarin ik layout, styling en interactieve elementen combineer met JavaScript en andere diverse talen.</p>
-                    <a class="button-git" href="#">Github link <span>↗</span></a>
+                    <span class="tag">PHP / SQLite</span>
+                    <h3>Dynamische database</h3>
+                    <p class="project-description">Een beginnend backendproject waarin ik leer werken met PHP en SQLite.</p>
+                    <a class="button-git" href="https://38734.hosts2.ma-cloud.nl/roomus/" target="_blank" rel="noopener">info link <span>↗</span></a>
+                    <a class="button-git" href="https://github.com/Jesper826/m6prog_digipost/blob/main/README.md" target="_blank" rel="noopener">Github link <span>↗</span></a>
                 </div>
-                <img class="project-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/demofoto.png" alt="Demo-afbeelding van de interactieve website">
+                <img class="project-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/demofoto.png" alt="Demo-afbeelding van de dynamische webapplicatie">
             </article>
             <article class="project project-feature">
                 <div class="project-copy">
-                    <span class="tag">PHP / Laravel</span>
-                    <h3>Dynamische webapplicatie</h3>
-                    <p class="project-description">Een beginnend backendproject waarin ik leer werken met PHP, Laravel en dynamische content.</p>
-                    <a class="button-git" href="#">Github link <span>↗</span></a>
+                    <span class="tag">PHP / SQLite</span>
+                    <h3>DigiPost</h3>
+                    <p class="project-description">DigiPost is een PHP-webapplicatie waarmee gebruikers digitale berichten kunnen versturen, ontvangen en beheren. De applicatie maakt gebruik van een database om gebruikers en berichten overzichtelijk op te slaan.</p>
+                    <a class="button-git" href="https://github.com/Jesper826/m6prog_digipost/blob/main/README.md" target="_blank" rel="noopener">info link <span>↗</span></a>
+                    <a class="button-git" href="https://github.com/Jesper826/m6prog_digipost" target="_blank" rel="noopener">Github link <span>↗</span></a>
                 </div>
-                <img class="project-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/demofoto.png" alt="Demo-afbeelding van de dynamische webapplicatie">
+                <img class="project-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/digipost.png" alt="Demo-afbeelding van de dynamische webapplicatie">
             </article>
     </section>
 </main>

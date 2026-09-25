@@ -8,9 +8,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/style.css">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/style.css?ver=<?php echo filemtime(__DIR__ . '/../style.css'); ?>">
     <?php if (file_exists(__DIR__ . '/../css/' . $pagina . '.css')): ?>
-        <link rel="stylesheet" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/css/<?php echo htmlspecialchars($pagina, ENT_QUOTES, 'UTF-8'); ?>.css">
+        <link rel="stylesheet" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/css/<?php echo htmlspecialchars($pagina, ENT_QUOTES, 'UTF-8'); ?>.css?ver=<?php echo filemtime(__DIR__ . '/../css/' . $pagina . '.css'); ?>">
     <?php endif; ?>
     <title>Jesper van Niekerk | Portfolio</title>
 </head>
