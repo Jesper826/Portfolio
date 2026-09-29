@@ -27,13 +27,13 @@
             </article>
             <article class="project project-feature">
                 <div class="project-copy">
-                    <span class="tag">PHP / SQLite</span>
-                    <h3>Dynamische database</h3>
-                    <p class="project-description">Een beginnend backendproject waarin ik leer werken met PHP en SQLite.</p>
-                    <a class="button-git" href="https://38734.hosts2.ma-cloud.nl/roomus/" target="_blank" rel="noopener">info link <span>↗</span></a>
-                    <a class="button-git" href="https://github.com/Jesper826/m6prog_digipost/blob/main/README.md" target="_blank" rel="noopener">Github link <span>↗</span></a>
+                    <span class="tag">React / Laravel / Vite</span>
+                    <h3>Laravel projecten</h3>
+                    <p class="project-description">Ik ontwikkelde drie webapplicaties met Laravel, PHP, React, TypeScript, Inertia.js, Tailwind CSS en Vite: een awardplatform, een space-programming-applicatie en een T-shirtwebsite.</p>
+                    <a class="button-git" href="https://github.com/Jesper826/M8_Prog/blob/main/README.md" target="_blank" rel="noopener">Info <span>↗</span></a>
+                    <a class="button-git" href="https://github.com/Jesper826/M8_Prog" target="_blank" rel="noopener">GitHub <span>↗</span></a>
                 </div>
-                <img class="project-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/demofoto.png" alt="Demo-afbeelding van de dynamische webapplicatie">
+                <img class="project-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/laravel.png" alt="Screenshot van Github">
             </article>
             <article class="project project-feature">
                 <div class="project-copy">
