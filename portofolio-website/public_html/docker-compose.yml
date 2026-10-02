@@ -1,0 +1,36 @@
+services:
+  website:
+    image: php:8.2-apache
+    ports:
+      - "80:80"
+    environment:
+      DB_HOST: "${DB_HOST}"
+      DB_NAME: "${DB_NAME}"
+      DB_USERNAME: "${DB_USERNAME}"
+      DB_PASSWORD: "${DB_PASSWORD}"
+    volumes:
+      - ./mijnus:/var/www/html
+      - ./apache-site.conf:/etc/apache2/conf-enabled/portfolio-alias.conf:ro
+    depends_on:
+      - mariadb
+
+  mariadb:
+    image: mariadb:latest
+    environment:
+      MYSQL_DATABASE: "${DB_NAME}"
+      MYSQL_USER: "${DB_USERNAME}"
+      MYSQL_PASSWORD: "${DB_PASSWORD}"
+      MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD}"
+    ports:
+      - "3310:3306"
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    environment:
+      PMA_HOST: "${DB_HOST}"
+      PMA_USER: "${DB_USERNAME}"
+      PMA_PASSWORD: "${DB_PASSWORD}"
+    ports:
+      - "1089:80"
+    depends_on:
+      - mariadb
