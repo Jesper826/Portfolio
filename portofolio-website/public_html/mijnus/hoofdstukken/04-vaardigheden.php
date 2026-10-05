@@ -10,12 +10,12 @@
     </section>
     <section class="skill-layout">
         <ul class="skill-list">
-            <li>HTML &amp; CSS <span>Basis</span></li>
-            <li>JavaScript <span>Basis</span></li>
-            <li>PHP <span>Basis</span></li>
-            <li>React <span>Beginner</span></li>
+            <li>HTML &amp; CSS <span>Geadvanceerd</span></li>
+            <li>JavaScript <span>Geadvanceerd</span></li>
+            <li>PHP <span>Geadvanceerd</span></li>
+            <li>React <span>basis</span></li>
+            <li>Laravel <span>basis</span></li>
             <li>Bootstrap <span>Beginner</span></li>
-            <li>Laravel <span>Beginner</span></li>
             <li>WordPress <span>Beginner</span></li>
         </ul>
         <div class="skill-note">
