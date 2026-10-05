@@ -18,7 +18,6 @@ $theme_url = preg_replace('#/hoofdstukken$#', '', $script_directory) ?? '';
 
 <body class="pagina-<?php echo htmlspecialchars($pagina, ENT_QUOTES, 'UTF-8'); ?>">
     <header class="navigatie">
-        <a class="logo" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/hoofdstukken/01-over-mij.php">J T V N<span>.</span></a>
         <nav>
             <ul class="buttons">
                 <li><a class="<?php echo $pagina === '01-over-mij' ? 'active' : ''; ?>" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/hoofdstukken/01-over-mij.php">01 Home</a></li>
