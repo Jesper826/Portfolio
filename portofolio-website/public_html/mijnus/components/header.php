@@ -25,6 +25,7 @@ $theme_url = preg_replace('#/hoofdstukken$#', '', $script_directory) ?? '';
                 <li><a class="<?php echo $pagina === '02-opleiding' ? 'active' : ''; ?>" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/hoofdstukken/02-opleiding.php">03 Opleiding</a></li>
                 <li><a class="<?php echo $pagina === '04-vaardigheden' ? 'active' : ''; ?>" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/hoofdstukken/04-vaardigheden.php">04 Skills</a></li>
                 <li><a class="<?php echo $pagina === '05-contact' ? 'active' : ''; ?>" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/hoofdstukken/05-contact.php">05 Contact</a></li>
+                <li><button class="language-toggle" id="language-toggle" type="button" aria-label="Translate portfolio to English">English</button></li>
             </ul>
         </nav>
     </header>

@@ -88,14 +88,14 @@
         </article>
 
         <article class="project">
-            <img class="project-image" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/econest.png" alt="Voorbeeldbeeld van de dynamische webapplicatie">
+            <img class="project-image" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/digipost.png" alt="Demo-afbeelding van de dynamische webapplicatie">
             <div class="project-content">
-                <span class="tag">PHP / Arduino</span>
-                <h3>Arduino project</h3>
-                <p>In dit project gebruikten we PHP en Arduino om een eenvoudige IoT-applicatie te ontwikkelen. In de applicatie konden we gegevens van ons modelhuisje verzamelen en verwerken.</p>
+                <span class="tag">PHP / SQLite</span>
+                <h3>DigiPost</h3>
+                <p>DigiPost is een PHP-webapplicatie waarmee gebruikers digitale berichten kunnen versturen, ontvangen en beheren. De applicatie maakt gebruik van een database om gebruikers en berichten overzichtelijk op te slaan.</p>
                 <div class="project-links">
-                    <a class="button" href="https://38406.hosts2.ma-cloud.nl/y1/EcoNest/index.php" target="_blank" rel="noopener">Live Url <span>↗</span></a>
-                    <a class="button button-secondary" href="https://github.com/Jesper826/EcoNest" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+                    <a class="button" href="https://github.com/Jesper826/m6prog_digipost/blob/main/README.md" target="_blank" rel="noopener">Info <span>↗</span></a>
+                    <a class="button button-secondary" href="https://github.com/Jesper826/m6prog_digipost" target="_blank" rel="noopener">GitHub <span>↗</span></a>
                 </div>
             </div>
         </article>

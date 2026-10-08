@@ -82,6 +82,24 @@ body {
 	background: var(--accent);
 }
 
+.language-toggle {
+	padding: 7px 10px;
+	border: 1px solid var(--ink);
+	color: var(--ink);
+	background: transparent;
+	font: inherit;
+	font-size: .7rem;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background .2s, color .2s;
+}
+
+.language-toggle:hover {
+	color: var(--paper);
+	background: var(--ink);
+}
+
 main {
 	width: min(1180px, calc(100% - 44px));
 	flex: 1;

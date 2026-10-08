@@ -35,13 +35,13 @@
             </article>
             <article class="project project-feature">
                 <div class="project-copy">
-                    <span class="tag">PHP / SQLite</span>
-                    <h3>DigiPost</h3>
-                    <p class="project-description">DigiPost is een PHP-webapplicatie waarmee gebruikers digitale berichten kunnen versturen, ontvangen en beheren. De applicatie maakt gebruik van een database om gebruikers en berichten overzichtelijk op te slaan.</p>
-                    <a class="button-git" href="https://github.com/Jesper826/m6prog_digipost/blob/main/README.md" target="_blank" rel="noopener">info link <span>↗</span></a>
-                    <a class="button-git" href="https://github.com/Jesper826/m6prog_digipost" target="_blank" rel="noopener">Github link <span>↗</span></a>
+                    <span class="tag">PHP / Arduino</span>
+                    <h3>Econest</h3>
+                    <p class="project-description">In dit project gebruikten we PHP en Arduino om een eenvoudige IoT-applicatie te ontwikkelen. In de applicatie konden we gegevens van ons modelhuisje verzamelen en verwerken.</p>
+                    <a class="button-git" href="https://38406.hosts2.ma-cloud.nl/y1/EcoNest/index.php" target="_blank" rel="noopener">Website link <span>↗</span></a>
+                    <a class="button-git" href="https://github.com/Jesper826/EcoNest" target="_blank" rel="noopener">GitHub link <span>↗</span></a>
                 </div>
-                <img class="project-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/digipost.png" alt="Demo-afbeelding van de dynamische webapplicatie">
+                <img class="project-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/econest.png" alt="Voorbeeldbeeld van de dynamische webapplicatie">
             </article>
     </section>
 </main>
