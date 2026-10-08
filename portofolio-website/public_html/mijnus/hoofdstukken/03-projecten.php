@@ -23,7 +23,7 @@
         </article>
 
         <article class="project">
-            <img class="project-image" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/Widgets.png" alt="Voorbeeldbeeld van de interactieve website">
+            <img class="project-image" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/widgets.png" alt="Voorbeeldbeeld van de interactieve website">
             <div class="project-content">
                 <span class="tag">HTML / CSS / JavaScript</span>
                 <h3>Javascript Widgets</h3>
@@ -108,7 +108,7 @@
                 <p>In dit project hebben we een website gemaakt waarin je de games van andere studenten kunt bekijken en spelen.</p>
                 <div class="project-links">
                     <a class="button" href="https://daanpronk.com/swe-nld/index.php" target="_blank" rel="noopener">Live Url <span>↗</span></a>
-                    <a class="button button-secondary" href="https://github.com/Jesper826/EcoNest" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+                    <a class="button button-secondary" href="https://github.com/GitCommitt/Zweden-Project" target="_blank" rel="noopener">GitHub <span>↗</span></a>
                 </div>
             </div>
         </article>

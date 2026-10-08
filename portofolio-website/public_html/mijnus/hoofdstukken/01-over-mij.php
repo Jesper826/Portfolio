@@ -9,9 +9,7 @@
             <a class="button" href="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/hoofdstukken/03-projecten.php">Bekijk mijn werk <span>↗</span></a>
             <div class="home-meta">Software Developer · Web · Nederland</div>
         </div>
-        <figure class="portrait">
-            <img src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/demofoto.png" alt="Abstract zwart demoportret">
-        </figure>
+        <img class="profile-photo" src="<?php echo htmlspecialchars($theme_url, ENT_QUOTES, 'UTF-8'); ?>/images/fotomezelf.png" alt="Portret van Jesper van Niekerk">
     </section>
     <section>
         <h5 class="eyebrow">Mijn favorieten projecten op een rijtje.</h3>
